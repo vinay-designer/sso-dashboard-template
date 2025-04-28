@@ -299,33 +299,7 @@ const Dashboard = () => {
       </div>
 
       {/* Welcome Section */}
-      <motion.div 
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="mb-10"
-      >
-        <div className="flex items-end justify-between">
-          <div>
-            <h1 className="text-3xl font-semibold tracking-tight" style={{ 
-              color: colors.textPrimary, 
-              letterSpacing: '-0.5px'
-            }}>
-              Welcome back, Jennifer
-            </h1>
-            <p className="mt-2 text-sm" style={{ color: colors.textSecondary }}>
-              Here's what's happening across your organization
-            </p>
-          </div>
-          <div className="text-sm font-medium px-3 py-1 rounded-full" 
-               style={{ 
-                 backgroundColor: `${colors.primary}15`,
-                 color: colors.primary
-               }}>
-            Monday, April 28, 2025
-          </div>
-        </div>
-      </motion.div>
+  
       
       {/* APPLICATIONS SECTION - CENTRALIZED AND HIGHLIGHTED */}
       <motion.div
